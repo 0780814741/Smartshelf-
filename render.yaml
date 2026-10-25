@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: smartshelf
+    runtime: static
+    buildCommand: echo "no build needed"
+    staticPublishPath: .
